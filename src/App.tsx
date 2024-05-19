@@ -1,10 +1,12 @@
-import './App.css';
-
 function App() {
   return (
-    <div>
-      <h1>First commit</h1>
-    </div>
+    <main>
+      <section id="home"></section>
+      <section id="about"></section>
+      <section id="tools"></section>
+      <section id="Experience"></section>
+      <section id="contact"></section>
+    </main>
   );
 }
 
