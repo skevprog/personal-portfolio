@@ -1,3 +1,4 @@
+import { ExperienceCard } from './components/ExperienceCard';
 import PersonalCard from './components/PersonalCard';
 
 function App() {
@@ -9,9 +10,19 @@ function App() {
       >
         <PersonalCard />
       </section>
-      <section id="about" className="min-h-svh bg-red-500"></section>
+      <section className="bg-red-500 p-8" id="experience">
+        <h2 className="text-4xl mb-8">Work Experience</h2>
+        <div className="flex flex-row gap-4 flex-wrap">
+          <ExperienceCard />
+          <ExperienceCard />
+          <ExperienceCard />
+          <ExperienceCard />
+          <ExperienceCard />
+          <ExperienceCard />
+        </div>
+      </section>
+      <section id="about"></section>
       <section id="tools"></section>
-      <section id="Experience"></section>
       <section id="contact"></section>
     </main>
   );

@@ -4,7 +4,7 @@ const personalName = 'Kevin Soruco';
 
 const PersonalCard = () => {
   return (
-    <div className=" border-solid border-2 w-4/6 border-red-500 p-2 mx-auto">
+    <div className="border-solid border-2  w-4/6 border-red-500 p-2 mx-auto">
       <div className="mt-24 text-center mx-auto">
         <div>
           <div className="inline-block border-t-2 border-slate-950 w-auto">
